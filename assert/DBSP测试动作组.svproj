@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Project ID="700397144" Version="1" LockScreen="false" IsAngleUnitDegree="true">
+  <Servos>
+    <Servo Stream="1" Order="1" X="-1" Y="-1" Caption="#1-1" Adjust="0" Skin="-1" />
+    <Servo Stream="1" Order="2" X="-1" Y="-1" Caption="#1-2" Adjust="0" Skin="-1" />
+  </Servos>
+  <Positions />
+  <Actions>
+    <Action ID="345452950" Caption="action-00">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="19" Interval="500" />
+        <Step Stream="1" Order="2" Degree="58" Interval="500" />
+      </Steps>
+    </Action>
+    <Action ID="208460726" Caption="action-01">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="93" Interval="500" />
+        <Step Stream="1" Order="2" Degree="-67" Interval="500" />
+      </Steps>
+    </Action>
+    <Action ID="415741625" Caption="action-10">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-69" Interval="500" />
+        <Step Stream="1" Order="2" Degree="-19" Interval="500" />
+      </Steps>
+    </Action>
+    <Action ID="685592471" Caption="action-11">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="74" Interval="500" />
+        <Step Stream="1" Order="2" Degree="-90" Interval="500" />
+      </Steps>
+    </Action>
+    <Action ID="869872186" Caption="action-20">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="-26" Interval="500" />
+        <Step Stream="1" Order="2" Degree="-22" Interval="500" />
+      </Steps>
+    </Action>
+    <Action ID="614099756" Caption="action-21">
+      <Steps>
+        <Step Stream="1" Order="1" Degree="74" Interval="500" />
+        <Step Stream="1" Order="2" Degree="93" Interval="500" />
+      </Steps>
+    </Action>
+  </Actions>
+  <Marcos>
+    <Marco ID="1513264628" Caption="marco-0" Reserved="0">
+      <Commands>
+        <Command ID="345452950" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="500" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="208460726" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="500" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="251853078" Caption="marco-1" Reserved="0">
+      <Commands>
+        <Command ID="415741625" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="500" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="685592471" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="500" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+    <Marco ID="1946965611" Caption="marco-2" Reserved="0">
+      <Commands>
+        <Command ID="869872186" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="500" Type="Delay" Ratio="100" Loop="1" />
+        <Command ID="614099756" Type="Action" Ratio="100" Loop="1" />
+        <Command ID="500" Type="Delay" Ratio="100" Loop="1" />
+      </Commands>
+    </Marco>
+  </Marcos>
+  <JoystickTables>
+    <JoystickTable Caption="PS2 Default-001" ID="1609450288">
+      <Buttons>
+        <Button Caption="↑" ID="4096" ButtonPress="1513264628" ButtonLongPress="0" ButtonUp="0" Uninterruptible="1" />
+        <Button Caption="←" ID="32768" ButtonPress="251853078" ButtonLongPress="0" ButtonUp="0" Uninterruptible="1" />
+        <Button Caption="→" ID="8192" ButtonPress="1946965611" ButtonLongPress="0" ButtonUp="0" Uninterruptible="1" />
+        <Button Caption="↓" ID="16384" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="△" ID="1" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="○" ID="2" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="☐" ID="8" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="✕" ID="4" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="L1" ID="16" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="L2" ID="64" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="L3" ID="1024" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="R1" ID="32" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="R2" ID="128" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="R3" ID="2048" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="Select" ID="256" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+        <Button Caption="Start" ID="512" ButtonPress="0" ButtonLongPress="0" ButtonUp="0" Uninterruptible="0" />
+      </Buttons>
+    </JoystickTable>
+  </JoystickTables>
+</Project>
